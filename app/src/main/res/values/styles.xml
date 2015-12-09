@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BlueTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorAccent">#BBDEFB</item>
+    </style>
+
+    <style name="RedTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#F44336</item>
+        <item name="colorAccent">#EF9A9A</item>
+    </style>
+
+    <style name="GreenTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorAccent">#A5D6A7</item>
+    </style>
+
+    <style name="AmberTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#ffc107</item>
+        <item name="colorAccent">#ffe082</item>
+    </style>
+
+    <style name="PurpleTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#AA66CC</item>
+        <item name="colorAccent">#B39DDB</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="theme"
+        android:title="Themes"
+        android:entries="@array/theme_colors"
+        android:entryValues="@array/theme_entries"
+        android:defaultValue="1"/>
+
+    <PreferenceCategory
+        android:title="Notification Reminders">
+
+        <CheckBoxPreference
+            android:key="bible_toggle"
+            android:title="Daily Bible Notification"/>
+
+    <com.joneslabs.biblereadinghelper.TimeBiblePreference
+        android:defaultValue="08:00"
+        android:key="bible_pref"
+        android:showDefault="true"
+        android:title="Bible Notification"
+        android:dialogIcon="@android:drawable/ic_lock_idle_alarm" />
+
+        <CheckBoxPreference
+            android:key="text_toggle"
+            android:title="Daily Text Notification"/>
+
+        <com.joneslabs.biblereadinghelper.TimeTextPreference
+            android:defaultValue="08:00"
+            android:key="text_pref"
+            android:showDefault="true"
+            android:title="Daily Text Notification"
+            android:dialogIcon="@android:drawable/ic_lock_idle_alarm" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

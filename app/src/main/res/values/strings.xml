@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bible Reading Helper</string>
+    <string name="welcome">Welcome to Bible Reading Helper</string>
+    <string name="theme_set">Set Theme:</string>
+    <string name="notif_set">Notification</string>
+    <string name="set_time">Set</string>
+    <string-array name="theme_colors">
+        <item>Red</item><item>Blue</item><item>Green</item>
+        <item>Amber</item><item>Purple</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>0</item><item>1</item><item>2</item>
+        <item>3</item><item>4</item>
+    </string-array>
+    <string-array name="bible_hebrew">
+        <item>Ge</item> <item>Ex</item> <item>Le</item>
+        <item>Nu</item> <item>De</item> <item>Jos</item>
+        <item>Jg</item> <item>Ru</item> <item>1Sa</item>
+        <item>2Sa</item> <item>1Ki</item> <item>2Ki</item>
+        <item>1Ch</item> <item>2Ch</item> <item>Ez</item>
+        <item>Ne</item> <item>Es</item> <item>Job</item>
+        <item>Ps</item> <item>Pr</item> <item>Ec</item>
+        <item>So</item> <item>Isa</item> <item>Jer</item>
+        <item>La</item> <item>Eze</item> <item>Da</item>
+        <item>Ho</item> <item>Joe</item> <item>Am</item>
+        <item>Ob</item> <item>Jon</item> <item>Mic</item>
+        <item>Na</item> <item>Hab</item> <item>Zep</item>
+        <item>Hag</item> <item>Zec</item> <item>Mal</item>
+    </string-array>
+    <string-array name="bible_greek">
+        <item>Mt</item> <item>Mr</item> <item>Lu</item>
+        <item>Joh</item> <item>Ac</item> <item>Ro</item>
+        <item>1Co</item> <item>2Co</item> <item>Ga</item>
+        <item>Eph</item> <item>Php</item> <item>Col</item>
+        <item>1Th</item> <item>2Th</item> <item>1Ti</item>
+        <item>2Ti</item> <item>Tit</item> <item>Phm</item>
+        <item>Heb</item> <item>Jas</item> <item>1Pe</item>
+        <item>2Pe</item> <item>1Jo</item> <item>2Jo</item>
+        <item>3Jo</item> <item>Ju</item> <item>Re</item>
+    </string-array>
+
+    <string name="Ge">Genesis</string><string name="Ex">Exodus</string><string name="Le">Leviticus</string>
+    <string name="Num">Numbers</string><string name="Deu">Deuteronomy</string><string name="Jos">Joshua</string>
+    <string name="Jg">Judges</string><string name="Ru">Ruth</string><string name="Sa1">1 Samuel</string>
+    <string name="Sa2">2 Samuel</string><string name="Ki1">1 Kings</string><string name="Ki2">2 Kings</string>
+    <string name="Ch1">1 Chronicles</string><string name="Ch2">2 Chronicles</string><string name="Ez">Ezra</string>
+    <string name="Ne">Nehemiah</string><string name="Es">Ester</string><string name="Job">Job</string>
+    <string name="Ps">Psalms</string><string name="Pr">Proverbs</string><string name="Ec">Ecclesiastes</string>
+    <string name="So">Song of Solomon</string><string name="Isa">Isaiah</string><string name="Jer">Jeremiah</string>
+    <string name="La">Lamentations</string><string name="Eze">Ezekiel</string><string name="Da">Daniel</string>
+    <string name="Ho">Hosea</string><string name="Joe">Joel</string><string name="Am">Amos</string>
+    <string name="Ob">Obediah</string><string name="Jon">Jonah</string><string name="Mic">Micah</string>
+    <string name="Na">Nahum</string><string name="Hab">Habakkuk</string><string name="Zep">Zephaniah</string>
+    <string name="Hag">Haggai</string><string name="Zec">Zechariah</string><string name="Mal">Malachi</string>
+    <string name="Mt">Matthew</string><string name="Mr">Mark</string><string name="Lu">Luke</string>
+    <string name="Joh">John</string><string name="Ac">Acts</string><string name="Ro">Romans</string>
+    <string name="Co1">1 Corinthians</string><string name="Co2">2 Corinthians</string><string name="Ga">Galatians</string>
+    <string name="Eph">Ephesians</string><string name="Php">Philippians</string><string name="Col">Colossians</string>
+    <string name="Th1">1 Thessalonians</string><string name="Th2">2 Thessalonians</string><string name="Ti1">1 Timothy</string>
+    <string name="Ti2">2 Timothy</string><string name="Tit">Titus</string><string name="Phm">Philemon</string>
+    <string name="Heb">Hebrews</string><string name="Jas">James</string><string name="Pe1">1 Peter</string>
+    <string name="Pe2">2 Peter</string><string name="Jo1">1 John</string><string name="Jo2">2 John</string>
+    <string name="Jo3">3 John</string><string name="Ju">Jude</string><string name="Re">Revelation</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_closed">Closed</string>
+    <string name="hebrew">Hebrew Scriptures</string>
+    <string name="greek">Greek Scriptures</string>
+    <string-array name="GenInt">
+        <item>1-3</item><item>4-7</item><item>8-11</item>
+        <item>12-15</item><item>16-18</item><item>19-22</item>
+        <item>23-24</item><item>25-27</item><item>28-30</item>
+        <item>31-32</item><item>33-34</item><item>35-37</item>
+        <item>38-40</item><item>41-42</item><item>43-45</item>
+        <item>46-48</item><item>49-50</item>
+    </string-array>
+    <string-array name="ExInt">
+        <item>1-4</item><item>5-7</item><item>8-10</item>
+        <item>11-13</item><item>14-15</item><item>16-18</item>
+        <item>19-21</item><item>22-15</item><item>26-28</item>
+        <item>29-30</item><item>31-33</item><item>34-35</item>
+        <item>36-38</item><item>39-40</item>
+    </string-array>
+    <string-array name="LeInt">
+        <item>1-4</item><item>5-7</item><item>8-10</item>
+        <item>11-13</item><item>14-15</item><item>16-18</item>
+        <item>19-21</item><item>22-23</item><item>24-25</item>
+        <item>26-27</item>
+    </string-array>
+    <string-array name="NuInt">
+        <item>1-3</item><item>4-6</item><item>7-9</item>
+        <item>10-12</item><item>13-15</item><item>16-18</item>
+        <item>19-21</item><item>22-14</item><item>15-27</item>
+        <item>28-30</item><item>31-32</item><item>33-36</item>
+    </string-array>
+    <string-array name="DeInt">
+        <item>1-2</item><item>3-4</item><item>5-7</item>
+        <item>8-10</item><item>11-13</item><item>14-16</item>
+        <item>17-19</item><item>20-22</item><item>23-26</item>
+        <item>27-28</item><item>29-31</item><item>32</item>
+        <item>33-34</item>
+    </string-array>
+    <string-array name="JosInt">
+        <item>1-4</item><item>5-7</item><item>8-9</item>
+        <item>10-12</item><item>13-15</item><item>16-18</item>
+        <item>19-21</item><item>22-24</item>
+    </string-array>
+    <string-array name="JgInt">
+        <item>1-2</item><item>3-5</item><item>6-7</item>
+        <item>8-9</item><item>10-11</item><item>12-13</item>
+        <item>14-16</item><item>17-19</item><item>20-21</item>
+    </string-array>
+    <string-array name="RuInt">
+        <item>1-4</item>
+    </string-array>
+    <string-array name="Sa1Int">
+        <item>1-2</item><item>3-6</item><item>7-9</item>
+        <item>10-12</item><item>13-14</item><item>15-16</item>
+        <item>17-18</item><item>19-21</item><item>22-24</item>
+        <item>25-27</item><item>28-31</item>
+    </string-array>
+    <string-array name="Sa2Int">
+        <item>1-2</item><item>3-5</item><item>6-8</item>
+        <item>9-12</item><item>13-14</item><item>15-16</item>
+        <item>17-18</item><item>19-20</item><item>21-22</item>
+        <item>23-24</item>
+    </string-array>
+    <string-array name="Ki1Int">
+        <item>1-2</item><item>3-5</item><item>6-7</item>
+        <item>8</item><item>9-10</item><item>11-12</item>
+        <item>13-14</item><item>15-17</item><item>18-19</item>
+        <item>20-21</item><item>22</item>
+    </string-array>
+    <string-array name="Ki2Int">
+        <item>1-3</item><item>4-5</item><item>6-8</item>
+        <item>9-10</item><item>11-13</item><item>14-15</item>
+        <item>16-17</item><item>18-19</item><item>20-22</item>
+        <item>23-25</item>
+    </string-array>
+    <string-array name="Ch1Int">
+        <item>1-2</item><item>3-5</item><item>6-7</item>
+        <item>8-10</item><item>11-12</item><item>13-15</item>
+        <item>16-17</item><item>18-20</item><item>21-23</item>
+        <item>24-26</item><item>27-29</item>
+    </string-array>
+    <string-array name="Ch2Int">
+        <item>1-3</item><item>4-6</item><item>7-9</item>
+        <item>10-14</item><item>15-18</item><item>19-22</item>
+        <item>23-25</item><item>26-28</item><item>29-30</item>
+        <item>31-33</item><item>34-36</item>
+    </string-array>
+    <string-array name="EzInt">
+        <item>1-3</item><item>4-7</item><item>8-10</item>
+    </string-array>
+    <string-array name="NeInt">
+        <item>1-3</item><item>4-6</item><item>7-8</item>
+        <item>9-10</item><item>11-13</item>
+    </string-array>
+    <string-array name="EsInt">
+        <item>1-4</item><item>5-10</item>
+    </string-array>
+    <string-array name="JobInt">
+        <item>1-5</item><item>6-9</item><item>10-14</item>
+        <item>15-18</item><item>19-20</item><item>21-24</item>
+        <item>25-29</item><item>30-31</item><item>32-34</item>
+        <item>35-38</item><item>39-42</item>
+    </string-array>
+    <string-array name="PsInt">
+        <item>1-8</item><item>9-16</item><item>17-19</item>
+        <item>20-25</item><item>26-31</item><item>32-35</item>
+        <item>36-38</item><item>39-42</item><item>43-47</item>
+        <item>48-52</item><item>53-58</item><item>59-64</item>
+        <item>65-68</item><item>69-72</item><item>73-77</item>
+        <item>78-79</item><item>80-86</item><item>87-90</item>
+        <item>91-96</item><item>97-103</item><item>104-105</item>
+        <item>106-108</item><item>109-115</item><item>116-119:63</item>
+        <item>119:64-176</item><item>120-129</item><item>130-138</item>
+        <item>139-144</item><item>145-150</item>
+    </string-array>
+    <string-array name="PrInt">
+        <item>1-4</item><item>5-8</item><item>9-12</item>
+        <item>13-16</item><item>17-19</item><item>20-22</item>
+        <item>23-27</item><item>28-31</item>
+    </string-array>
+    <string-array name="EcInt">
+        <item>1-4</item><item>5-8</item><item>9-12</item>
+    </string-array>
+    <string-array name="SoInt">
+        <item>1-8</item>
+    </string-array>
+    <string-array name="IsaInt">
+        <item>1-4</item><item>5-7</item><item>8-10</item>
+        <item>11-14</item><item>15-19</item><item>20-24</item>
+        <item>25-28</item><item>29-31</item><item>32-35</item>
+        <item>36-37</item><item>38-40</item><item>41-43</item>
+        <item>44-47</item><item>48-50</item><item>51-55</item>
+        <item>56-58</item><item>59-62</item><item>63-66</item>
+    </string-array>
+    <string-array name="JerInt">
+        <item>1-3</item><item>4-5</item><item>6-7</item>
+        <item>8-10</item><item>11-13</item><item>14-16</item>
+        <item>17-20</item><item>21-23</item><item>24-26</item>
+        <item>27-29</item><item>30-31</item><item>32-33</item>
+        <item>34-36</item><item>37-39</item><item>40-42</item>
+        <item>43-44</item><item>45-48</item><item>49-50</item>
+        <item>51-52</item>
+    </string-array>
+    <string-array name="LaInt">
+        <item>1-2</item><item>3-5</item>
+    </string-array>
+    <string-array name="EzeInt">
+        <item>1-3</item><item>4-6</item><item>7-9</item>
+        <item>10-12</item><item>13-15</item><item>16</item>
+        <item>17-18</item><item>19-21</item><item>22-23</item>
+        <item>24-26</item><item>27-28</item><item>29-31</item>
+        <item>32-33</item><item>34-46</item><item>37-38</item>
+        <item>39-40</item><item>41-43</item><item>44-45</item>
+        <item>46-48</item>
+    </string-array>
+    <string-array name="DaInt">
+        <item>1-2</item><item>3-4</item><item>5-7</item>
+        <item>8-10</item><item>11-12</item>
+    </string-array>
+    <string-array name="HoInt">
+        <item>1-7</item><item>8-14</item>
+    </string-array>
+    <string-array name="JoeInt">
+        <item>1-3</item>
+    </string-array>
+    <string-array name="AmInt">
+        <item>1-5</item><item>6-9</item>
+    </string-array>
+    <string-array name="MicInt">
+        <item>1-7</item>
+    </string-array>
+    <string-array name="ZecInt">
+        <item>1-7</item><item>8-11</item><item>12-14</item>
+    </string-array>
+    <string-array name="MalInt">
+        <item>1-4</item>
+    </string-array>
+    <string-array name="MtInt">
+        <item>1-4</item><item>5-7</item><item>8-10</item>
+        <item>11-13</item><item>14-17</item><item>18-20</item>
+        <item>21-23</item><item>24-25</item><item>26</item>
+        <item>27-28</item>
+    </string-array>
+    <string-array name="MrInt">
+        <item>1-3</item><item>4-5</item><item>6-8</item>
+        <item>9-10</item><item>11-13</item><item>14-16</item>
+    </string-array>
+    <string-array name="LuInt">
+        <item>1-2</item><item>3-5</item><item>6-7</item>
+        <item>8-9</item><item>10-11</item><item>12-13</item>
+        <item>14-17</item><item>18-19</item><item>20-22</item>
+        <item>23-24</item>
+    </string-array>
+    <string-array name="JohInt">
+        <item>1-3</item><item>4-5</item><item>6-7</item>
+        <item>8-9</item><item>10-12</item><item>13-15</item>
+        <item>16-18</item><item>19-21</item>
+    </string-array>
+    <string-array name="AcInt">
+        <item>1-3</item><item>4-6</item><item>7-8</item>
+        <item>9-11</item><item>12-14</item><item>15-16</item>
+        <item>17-19</item><item>20-21</item><item>22-23</item>
+        <item>24-26</item><item>27-28</item>
+    </string-array>
+    <string-array name="RoInt">
+        <item>1-3</item><item>4-7</item><item>8-11</item>
+        <item>12-16</item>
+    </string-array>
+    <string-array name="Co1Int">
+        <item>1-6</item><item>7-10</item><item>11-14</item>
+        <item>15-16</item>
+    </string-array>
+    <string-array name="Co2Int">
+        <item>1-6</item><item>7-10</item><item>11-13</item>
+    </string-array>
+    <string-array name="GaInt">
+        <item>1-6</item>
+    </string-array>
+    <string-array name="EphInt">
+        <item>1-6</item>
+    </string-array>
+    <string-array name="PhpInt">
+        <item>1-4</item>
+    </string-array>
+    <string-array name="ColInt">
+        <item>1-4</item>
+    </string-array>
+    <string-array name="Th1Int">
+        <item>1-5</item>
+    </string-array>
+    <string-array name="Th2Int">
+        <item>1-3</item>
+    </string-array>
+    <string-array name="Ti1Int">
+        <item>1-6</item>
+    </string-array>
+    <string-array name="Ti2Int">
+        <item>1-4</item>
+    </string-array>
+    <string-array name="HebInt">
+        <item>1-6</item><item>7-10</item><item>11-13</item>
+    </string-array>
+    <string-array name="JasInt">
+        <item>1-5</item>
+    </string-array>
+    <string-array name="Pe1Int">
+        <item>1-5</item>
+    </string-array>
+    <string-array name="Pe2Int">
+        <item>1-3</item>
+    </string-array>
+    <string-array name="Jo1Int">
+        <item>1-5</item>
+    </string-array>
+    <string-array name="ReInt">
+        <item>1-4</item><item>5-9</item><item>10-14</item>
+        <item>15-18</item><item>19-22</item>
+    </string-array>
+
+</resources>
