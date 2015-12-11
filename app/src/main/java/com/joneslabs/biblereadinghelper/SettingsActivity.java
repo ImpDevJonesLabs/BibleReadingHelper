@@ -69,6 +69,7 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
             Preference textPicker = findPreference("text_pref");
             textPicker.setEnabled(true);
         }
+
     }
 
     @Override

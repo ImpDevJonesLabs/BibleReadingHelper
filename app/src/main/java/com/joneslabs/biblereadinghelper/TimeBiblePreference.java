@@ -88,7 +88,7 @@ public class TimeBiblePreference extends DialogPreference {
             SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
             SharedPreferences.Editor editor = preferences.edit();
             editor.putString("bible_time", TimeString);
-            editor.commit();
+            editor.apply();
         }
 
     }

@@ -8,6 +8,14 @@
         android:entryValues="@array/theme_entries"
         android:defaultValue="1"/>
 
+    <com.joneslabs.biblereadinghelper.DeleteDialog
+        android:key="delete_pref"
+        android:title="Delete Progress"
+        android:dialogTitle="Delete Progress"
+        android:negativeButtonText="No"
+        android:positiveButtonText="Yes"
+        android:dialogMessage="Would you like to delete your progress? (Cannot be undone)"/>
+
     <PreferenceCategory
         android:title="Notification Reminders">
 
