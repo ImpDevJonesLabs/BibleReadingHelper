@@ -28,6 +28,21 @@
         <item>Na</item> <item>Hab</item> <item>Zep</item>
         <item>Hag</item> <item>Zec</item> <item>Mal</item>
     </string-array>
+    <string-array name="hebrew_dc">
+        <item>Ge</item> <item>Ex</item> <item>Le</item>
+        <item>Job</item> <item>Nu</item> <item>De</item> <item>Jos</item>
+        <item>Jg</item> <item>Ru</item> <item>1Sa</item>
+        <item>2Sa</item>  <item>So</item> <item>Ec</item>
+        <item>Jon</item> <item>Joe</item> <item>Am</item>
+        <item>Ho</item> <item>Isa</item> <item>Mic</item>
+        <item>Pr</item> <item>Zep</item> <item>Na</item> <item>Hab</item>
+        <item>La</item> <item>Ob</item> <item>Eze</item>
+        <item>1Ki</item> <item>2Ki</item> <item>Jer</item>
+        <item>Da</item> <item>Hag</item> <item>Zec</item>
+        <item>Es</item> <item>1Ch</item> <item>2Ch</item>
+        <item>Ez</item> <item>Ps</item> <item>Ne</item>
+        <item>Mal</item>
+    </string-array>
     <string-array name="bible_greek">
         <item>Mt</item> <item>Mr</item> <item>Lu</item>
         <item>Joh</item> <item>Ac</item> <item>Ro</item>
@@ -38,6 +53,18 @@
         <item>Heb</item> <item>Jas</item> <item>1Pe</item>
         <item>2Pe</item> <item>1Jo</item> <item>2Jo</item>
         <item>3Jo</item> <item>Ju</item> <item>Re</item>
+    </string-array>
+    <string-array name="greek_dc">
+        <item>Mt</item> <item>1Th</item> <item>2Th</item>
+        <item>Ga</item> <item>1Co</item> <item>2Co</item>
+        <item>Ro</item> <item>Lu</item> <item>Eph</item>
+        <item>Col</item> <item>Phm</item>
+        <item>Php</item> <item>Heb</item> <item>Ac</item>
+        <item>Jas</item> <item>Mr</item> <item>1Ti</item>
+        <item>Tit</item> <item>1Pe</item> <item>2Pe</item>
+        <item>2Ti</item> <item>Ju</item> <item>Re</item>
+        <item>Joh</item> <item>1Jo</item> <item>2Jo</item>
+        <item>3Jo</item>
     </string-array>
 
     <string name="Ge">Genesis</string><string name="Ex">Exodus</string><string name="Le">Leviticus</string>

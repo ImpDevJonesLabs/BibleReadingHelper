@@ -3,6 +3,7 @@ package com.joneslabs.biblereadinghelper;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
@@ -31,8 +32,10 @@ public class BibleProgressGreek extends ActionBarActivity {
 
         Bundle progressBundle = getIntent().getExtras();
         int positionBook = progressBundle.getInt("position");
+        String selectedBook = progressBundle.getString("book");
+        Log.e("selectedBook is", selectedBook);
 
-        if(positionBook == 0) {
+        if(selectedBook.equals("Mt")) {
 
             for (int i = 0; i < 10; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
@@ -49,7 +52,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 1) {
+        if (selectedBook.equals("Mr")) {
             for (int i = 0; i < 6; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -65,7 +68,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 2) {
+        if (selectedBook.equals("Lu")) {
             for (int i = 0; i < 10; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -81,7 +84,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 3) {
+        if (selectedBook.equals("Joh")) {
             for (int i = 0; i < 8; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -97,7 +100,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 4) {
+        if (selectedBook.equals("Ac")) {
             for (int i = 0; i < 11; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -113,7 +116,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 5) {
+        if (selectedBook.equals("Ro")) {
             for (int i = 0; i < 4; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -129,7 +132,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 6) {
+        if (selectedBook.equals("1Co")) {
             for (int i = 0; i < 4; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -145,7 +148,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 7) {
+        if (selectedBook.equals("2Co")) {
             for (int i = 0; i < 3; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -161,7 +164,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 8) {
+        if (selectedBook.equals("Ga")) {
             for (int i = 0; i < 1; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -177,7 +180,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 9) {
+        if (selectedBook.equals("Eph")) {
             for (int i = 0; i < 1; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -193,7 +196,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 10) {
+        if (selectedBook.equals("Php")) {
             for (int i = 0; i < 1; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -209,7 +212,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 11) {
+        if (selectedBook.equals("Col")) {
             for (int i = 0; i < 1; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -225,7 +228,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 12) {
+        if (selectedBook.equals("1Th")) {
             for (int i = 0; i < 1; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -241,7 +244,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 13) {
+        if (selectedBook.equals("2Th")) {
             for (int i = 0; i < 1; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -257,7 +260,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 14) {
+        if (selectedBook.equals("1Ti")) {
             for (int i = 0; i < 1; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -273,7 +276,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 15) {
+        if (selectedBook.equals("2Ti")) {
             for (int i = 0; i < 1; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -289,7 +292,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 16) {
+        if (selectedBook.equals("Tit") || selectedBook.equals("Phm")) {
             for (int i = 0; i < 1; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -305,23 +308,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 17) {
-            for (int i = 0; i < 1; i++) {
-                RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
-                progressBox = new CheckBox(this);
-                progressBox.setText(getResources().getString(R.string.Tit) + "/" + getResources().getString(R.string.Phm));
-                progressBox.setId(i + 65);
-                RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-                params.addRule(RelativeLayout.BELOW, progressBox.getId() - 1);
-                progressBox.setLayoutParams(params);
-                progressBox.setOnCheckedChangeListener(new onCheckedChanged());
-                int boxId = progressBox.getId();
-                String boxString = Integer.toString(boxId);
-                progressBox.setChecked(getFromSP(boxString));
-                progressLayout.addView(progressBox);
-            }
-        }
-        if (positionBook == 18) {
+        if (selectedBook.equals("Heb")) {
             for (int i = 0; i < 3; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -337,7 +324,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 19) {
+        if (selectedBook.equals("Jas")) {
             for (int i = 0; i < 1; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -353,7 +340,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 20) {
+        if (selectedBook.equals("1Pe")) {
             for (int i = 0; i < 1; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -369,7 +356,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 21) {
+        if (selectedBook.equals("2Pe")) {
             for (int i = 0; i < 1; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -385,7 +372,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 22) {
+        if (selectedBook.equals("1Jo")) {
             for (int i = 0; i < 1; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -401,7 +388,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 23) {
+        if (selectedBook.equals("2Jo") || selectedBook.equals("3Jo") || selectedBook.equals("Ju")) {
             for (int i = 0; i < 1; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);
@@ -417,39 +404,7 @@ public class BibleProgressGreek extends ActionBarActivity {
                 progressLayout.addView(progressBox);
             }
         }
-        if (positionBook == 24) {
-            for (int i = 0; i < 1; i++) {
-                RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
-                progressBox = new CheckBox(this);
-                progressBox.setText(getResources().getString(R.string.Jo2) + "/" + getResources().getString(R.string.Jo3) + "/" + getResources().getString(R.string.Ju));
-                progressBox.setId(i + 73);
-                RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-                params.addRule(RelativeLayout.BELOW, progressBox.getId() - 1);
-                progressBox.setLayoutParams(params);
-                progressBox.setOnCheckedChangeListener(new onCheckedChanged());
-                int boxId = progressBox.getId();
-                String boxString = Integer.toString(boxId);
-                progressBox.setChecked(getFromSP(boxString));
-                progressLayout.addView(progressBox);
-            }
-        }
-        if (positionBook == 25) {
-            for (int i = 0; i < 1; i++) {
-                RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
-                progressBox = new CheckBox(this);
-                progressBox.setText(getResources().getString(R.string.Jo2) + "/" + getResources().getString(R.string.Jo3) + "/" + getResources().getString(R.string.Ju));
-                progressBox.setId(i + 73);
-                RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-                params.addRule(RelativeLayout.BELOW, progressBox.getId() - 1);
-                progressBox.setLayoutParams(params);
-                progressBox.setOnCheckedChangeListener(new onCheckedChanged());
-                int boxId = progressBox.getId();
-                String boxString = Integer.toString(boxId);
-                progressBox.setChecked(getFromSP(boxString));
-                progressLayout.addView(progressBox);
-            }
-        }
-        if (positionBook == 26) {
+        if (selectedBook.equals("Re")) {
             for (int i = 0; i < 5; i++) {
                 RelativeLayout progressLayout = (RelativeLayout) findViewById(R.id.progress_layout);
                 progressBox = new CheckBox(this);

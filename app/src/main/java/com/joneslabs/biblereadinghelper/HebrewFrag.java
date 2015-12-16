@@ -12,7 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.GridView;
 
 public class HebrewFrag extends Fragment{
-    String[] hebrewBooks;
+    String[] hebrewBooks, hebrewDateComplete, DcArray;
     GridView hebrewGrid;
 
     @Override
@@ -27,8 +27,9 @@ public class HebrewFrag extends Fragment{
         hebrewGrid = (GridView) getActivity().findViewById(R.id.gv_hebrew);
 
         hebrewBooks = getActivity().getResources().getStringArray(R.array.bible_hebrew);
+        hebrewDateComplete = getActivity().getResources().getStringArray(R.array.hebrew_dc);
 
-        ArrayAdapter hebrewAdapter = new ArrayAdapter(getActivity(), R.layout.grid_item, hebrewBooks);
+        ArrayAdapter hebrewAdapter = new ArrayAdapter(getActivity(), R.layout.grid_item, hebrewDateComplete);
 
         hebrewGrid.setAdapter(hebrewAdapter);
 
@@ -36,7 +37,11 @@ public class HebrewFrag extends Fragment{
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Bundle progressBundle = new Bundle();
+                DcArray = hebrewDateComplete.clone();
+                String selectedBook = DcArray.clone()[position];
+
                 progressBundle.putInt("position", position);
+                progressBundle.putString("book", selectedBook);
                 Intent newActivity = new Intent(getActivity(), BibleProgressHebrew.class);
                 newActivity.putExtras(progressBundle);
                 startActivity(newActivity);
